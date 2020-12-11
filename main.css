@@ -1,0 +1,54 @@
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(117, 117, 117); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+.t-row {
+  border-top: 2px solid rgb(122, 122, 122, 0.3) !important;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.asd {
+  background-color: rgba(31, 31, 31, 0.5);
+}
+.fas {
+  color: rgb(248, 140, 16) !important;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: white;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-custom {
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 10px;
+  min-width: 300px;
+  margin: 15px;
+  transition: 0.3s;
+  width: 30%;
+}
+
+.card-custom:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 4px rgba(0, 0, 0, 0.21);
+}
